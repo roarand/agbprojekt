@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html  lang="pl-PL">
+    <head>
+        <title>AGB Projekt - usługi projektowe</title>
+        
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ID=edge"/>
+        <meta name="keywords" content="architekt, geodezja, projekt, projektowanie, biuro projektowe, agb projekt, agb"/>
+        <meta name="description" content=""/>
+        
+         <!-- Bootstrap -->
+        <link href="bootstrap.min.css" rel="stylesheet">
+        
+        <!-- plik CSS -->
+        <link href="main.css" rel="stylesheet"> 
+       
+        <!-- Czcionki Advent Pro, Alegreya oraz Aladin -->
+        <link href='http://fonts.googleapis.com/css?family=Advent+Pro&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Aladin&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Alegreya&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <!-- ikonki font awesome -->
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+        <script src="skrypt.js"></script>
+
+    </head>
+    
+    <body>
+    
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+			<div class="container-fluid">
+			
+							 <div class="collapse navbar-collapse" id="logo">
+                                    <!-- Marka/Logo Strony -->
+									<ul class="nav navbar-nav">
+										<li><a class="navbar-brand" href="#"><img id="agb" src="img/logo.png"/></a></li>
+									</ul>
+							</div>
+							
+                            <!-- przycisk rozwijania mobilnego menu(smartfony) -->
+                            <div class="navbar-header"> 
+								
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+									<span class="sr-only">Rozwiń nawigację</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+                                
+                            </div>
+	
+                            <!-- Menu nawigacyjne-->
+                            <div class="collapse navbar-collapse navbar-right" id="menu">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#architektura">Architektura</a></li>
+                                    <li><a href="#geodezja">Geodezja</a></li>
+                                    <li><a href="#instalacje">Instalacje</a></li>   
+                                    <li><a href="#poradnik">Poradnik inwestora</a></li>
+                                    <li><a href="#wycena">Wycena</a></li>
+                                    <li><a href="#kalendarz">Kalendarz inwestora</a></li>
+                                    <li><a href="#kontakt">Kontakt</a></li>
+                                </ul>
+                            </div><!--Koniec Menu nawigacyjnego -->
+             </div>
+        </nav>
+        
+     
+        <!-- Intro - Logo główne -->
+        <div id="intro" class="container-fluid">
+			<br/><br/><br/>
+            <p class="introtytul"> BIURO PROJEKTOWE AGB PROJEKT </p>
+			<p class="intropis">ul. Jagiellońska 1, 32-005 Niepołomice</p>
+                        <p class="intropis">tel. 880 212 500</p>
+						<div id="podpis"><p class="intropis">ARCHITEKTURA GEODEZJA BUDOWNICTWO</p></div>
+        </div>
+		
+		<!-- div 1 projekty galeria -->
+		<div id="projekty" class="container-fluid">
+			<p class="tytul"> NASZE PROJEKTY </p>
+			<br/>
+				<div class="row">
+					<div class="col-md-4 col-sm-12 col-xs-12 projekt"><img src="http://placehold.it/260x320"/></div> 
+					<div class="col-md-4 col-sm-12 col-xs-12 projekt"><img src="http://placehold.it/260x320"/></div> 
+					<div class="col-md-4 col-sm-12 col-xs-12 projekt"><img src="http://placehold.it/260x320"/></div>
+				</div>
+		</div>
+		
+		<!-- div 2 architektura -->
+		<div id="architektura" class="container-fluid">
+			<p class="tytul">ARCHITEKTURA</p>
+			<br/>
+			<div id="rzad" class="row">
+			<div class="col-md-4 col-md-12 col-xs-12 obrazy"> <img class="obraz" src="img/autorskie.png"/></div>
+			<div class="col-md-4 col-md-12 col-xs-12 obrazy"> <img class="obraz" src="img/typowe.png"/></div>
+			<div class="col-md-4 col-md-12 col-xs-12 obrazy"> <img class="obraz" src="img/rozbudowa.png"/></div>
+			</div>
+		</div>
+		
+		<!-- div 3 geodezja -->
+		<div id="geodezja" class="container-fluid">
+		<p class="tytul"> GEODEZJA </p>
+		<div id="geotekst">
+		<br/><br/>
+		<p>
+			Biuro AGB Projekt w zakresie geodezji wykonuje:</br>
+		</p>
+		<p>
+		-mapy do celów projektowych
+		</p><p>
+		-inwenatryzacje powykonawcze
+		</p><p>
+		-tyczenia obiektów budowlanych
+		</p><p>
+		-wznowienia znaków granicznych
+		</p><p>
+		-ustalenia granic nieruchomości
+		</p><p>
+		-podziały nieruchomości
+		</p>
+		</div>
+		</div>
+		
+		<!-- div 4 instalacje -->	
+		<div id="instalacje" class="container-fluid">
+		<p class="tytul"> INSTALACJE </p>
+		<div id="tekst">
+		<br/>
+		<p>
+			Oferujemy Państwu usługi związane z wykonaniem projektów:
+		</p>
+		<p>-wewnętrznych instalacji w budynkach</p>
+		<p>-przyłączy wodociągowych do budynków</p>
+		<p>-przyłączy kanalizacyjnych do budynków</p>
+		<p>-sieci wodociągowej</p>
+		<p>-sieci kanalizacyjnej</p>
+		<p>-zbiorników na nieczystości ciekłe</p>
+		<p>-oczyszczalni przydomowych</p>
+		</div>
+		</div>
+			
+		<!-- div 5 poradnik inwestora -->
+        <div id="poradnik" class="container-fluid">
+		<div id="poradniktekst">
+            <p class="tytul">PORADNIK INWESTORA: <p>
+            <p id="opis">Przed wizytą w naszym biurze należy pamiętać o: <p>
+            <br/>
+           <img id ="ikony" src="img/ikon1.png"/>
+		</div>
+        </div>
+      
+		<!-- div 5 formularz do wyceny -->
+        <div id="wycena" class="container-fluid">
+            <p class="tytul">Wycena</p>
+            <p id="wyc"> Wypełnij poniższy formularz w celu przesłania do wyceny</p>
+            <form>
+            <div class="col-md-12 col-xs-12">
+                <div class="row">
+                    <div id="position1" class="col-md-4 col-xs-4">Imię i nazwisko*:</div><div id="pos1" class="col-md-8 col-xs-8"> <input type="text" name="names" /></div>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="row">
+                    <div id="position2" class="col-md-4 col-xs-4">Email*:</div><div id="pos2" class="col-md-8 col-xs-8"> <input type="text" name="mail"/></div>
+                    <div style="clear:both"></div>
+                </div>
+                    <br/>
+                <div class="row">
+                    <div id="position3" class="col-md-4 col-xs-4">Dokumenty: </div>
+                    <div id="pos3" class="col-md-8 col-xs-8">
+                        <input type="checkbox" name="dokumenty0" /> Warunki przyłączeniowe mediów <br/>
+                        <input type="checkbox" name="dokumenty1" /> Wypis i wyrys z MPZP <br/>
+                        <input type="checkbox" name="dokumenty2" /> Informacja dotycząca połączenia działki z drogą publiczną <br/>
+                        <input type="checkbox" name="dokumenty3" /> Warunki zabudowy <br/>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="row">
+                <div id="position4" class="col-md-4 col-xs-4">Projekt typowy: </div>
+                    <div id="pos4" class="col-md-8 col-xs-8">
+                        <input type="checkbox" name="typowy" value="0"/> Tak <br/>
+                        <input type="checkbox" name="typowy" value="1"/> Nie <br/> 
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="row">
+                <div id="position5" class="col-md-4 col-xs-4">Zakres zamawianych prac</div>
+                    <div id="pos5" class="col-md-8 col-xs-8">
+                        <input type="checkbox" name="zakres0" /> Mapa do celów projektowych <br/>
+                        <input type="checkbox" name="zakres1" /> Badania geologiczne <br/>
+                        <input type="checkbox" name="zakres2"/> Projekt koncepcyjny <br/>
+                        <input type="checkbox" name="zakres3" /> Projekt indywidualny <br/>
+                        <input type="checkbox" name="zakres4" /> Adaptacja projektu typowego <br/>
+                        <input type="checkbox" name="zakres5" /> Zmiany projektu typowego <br/>
+                        <input type="checkbox" name="zakres6" /> Inwentaryzacja <br/>
+                        <input type="checkbox" name="zakres7" /> Kosztorys inwestorski <br/>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="row">
+                    <div id="position6" class="col-md-4 col-xs-4">Przyłącza</div>
+                    <div id="pos6" class="col-md-8 col-xs-8">
+                        <input type="checkbox" name="przylacza1"/> Woda <br/>
+                        <input type="checkbox" name="przylacza2"/> Kanalizacja <br/>
+                        <input type="checkbox" name="przylacza3"/> Szambo <br/>
+                        <input type="checkbox" name="przylacza4"/> Przydomowa oczyszczalnia ścieków <br/>
+                        <input type="checkbox" name="przylacza5"/> WLZ energii elektrycznej <br/>
+                        <input type="checkbox" name="przylacza6"/> WIG gazu <br/>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="row">
+                    <input type="button" name="submit" value="Wyślij">
+                </div>
+            </div>
+            </form>
+            <p id="odp"></p>
+        </div>
+      
+         <div id="kontakt" class="container-fluid">
+            
+                <h2>Kontakt: </h2>
+                <br/>
+                
+                 <div class="row" id="mapa">
+                     
+                    <div class="col-md-12 col-xs-12">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.896198936071!2d20.211629615935934!3d50.03204082530518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47164783ea16b42b%3A0xcb01acd5d417fc77!2sJagiello%C5%84ska+1%2C+32-005+Niepo%C5%82omice!5e0!3m2!1spl!2spl!4v1489998116209" id="map" frameborder="0" style="border:1px" allowfullscreen></iframe>
+                       
+                    </div>
+                </div>
+                
+                <div class="row" id="dane">
+                    <div class="col-md-4 col-xs-12">
+                   <!--     E-Mail -->
+                        <p><a href="mailto: nazwa@example.pl"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></p>
+                        <p><a href="mailto: nazwa@example.pl">agbarchitektura@gmail.com</a></p>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                   <!--     Adres  -->
+                        <p><a href="https://www.google.pl/maps/place/Jagiello%C5%84ska+1,+32-005+Niepo%C5%82omice/@50.0320408,20.2116296,17z/data=!3m1!4b1!4m5!3m4!1s0x47164783ea16b42b:0xcb01acd5d417fc77!8m2!3d50.0320374!4d20.2138183" target="_blank"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a></p>
+                        <p>ul. Jagiellońska 1 ,  32-005 Niepołomice </p>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                    <!--   Telefon  -->
+                        <p><a href="tel: +48000000000"><i class="fa fa-phone-square fa-2x" aria-hidden="true"></i></a></p>
+                        <p><a href="tel: +48880212500">880 212 500</a></p>
+                    </div>
+                </div>
+               
+        </div>
+        
+           <!-- Media społecznościowe - Linki  -->
+                <div id="social" class="container-fluid">
+                    <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
+                </div>
+        
+        <div id="stopka">
+            <div class="container-fluid">
+                <p> &copy;2017 Wszelkie Prawa Zastrzeżone </p>
+            </div>       
+        </div>
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="bootstrap.min.js"></script> 
+        
+    </body>
+</html>
